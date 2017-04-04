@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.classex2.MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp">
+
+      <EditText
+          android:id="@+id/edittext"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:hint="NAME"
+          android:textColorHint="#ff00ff"/>
+      <EditText
+          android:id="@+id/edittext2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="20dp"
+          android:layout_marginRight="20dp"
+          android:hint="AGE"
+          android:textColorHint="#ff00ff"/>
+   </LinearLayout>
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20dp">
+
+      <Button
+          android:id="@+id/button"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="SINGER"
+          android:textStyle="bold"
+          android:layout_marginLeft="80dp"
+          />
+
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Man SINGER"
+          android:textStyle="bold"
+          android:layout_marginLeft="20dp"
+          />
+
+   </LinearLayout>
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Registration Total Singer :"
+             android:layout_marginLeft="60dp"
+             android:textSize="20dp"
+             android:textStyle="bold"/>
+
+         <TextView
+             android:id="@+id/text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="0"
+             android:textStyle="bold"
+             android:textSize="20dp"
+             android:gravity="center"/>
+
+
+
+   </LinearLayout>
+
+
+</LinearLayout>

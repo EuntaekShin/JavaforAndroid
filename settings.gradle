@@ -1,0 +1,1 @@
+include ':app', ':valueex1', ':funcex', ':funcex2', ':class', ':classex', ':classex2', ':array', ':arrayex1', ':intent', ':intentex', ':interfaceex', ':listviewex', ':ListView2', ':threadex', ':stream'

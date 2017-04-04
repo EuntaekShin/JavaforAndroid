@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.classex.MainActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/img1"
+          android:layout_width="wrap_content"
+          android:layout_height="161dp"
+          android:src="@drawable/baby"
+          android:layout_margin="10dp"
+          android:background="#00ffff"
+          />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="161dp"
+            android:src="@drawable/baby_cry"
+            android:layout_margin="10dp"
+            android:background="#00ff00"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:text="Baby1"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:text="Baby2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="110dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+        <EditText
+            android:id="@+id/edtxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="name"/>
+
+        <EditText
+            android:id="@+id/edtxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="age"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="SET UP"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:text="Close"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

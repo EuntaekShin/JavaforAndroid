@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DoitAndroid3.iml" filepath="$PROJECT_DIR$/DoitAndroid3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListView2/ListView2.iml" filepath="$PROJECT_DIR$/ListView2/ListView2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrayex1/arrayex1.iml" filepath="$PROJECT_DIR$/arrayex1/arrayex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/class/class.iml" filepath="$PROJECT_DIR$/class/class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classex/classex.iml" filepath="$PROJECT_DIR$/classex/classex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classex2/classex2.iml" filepath="$PROJECT_DIR$/classex2/classex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funcex/funcex.iml" filepath="$PROJECT_DIR$/funcex/funcex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/funcex2/funcex2.iml" filepath="$PROJECT_DIR$/funcex2/funcex2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intent/intent.iml" filepath="$PROJECT_DIR$/intent/intent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intentex/intentex.iml" filepath="$PROJECT_DIR$/intentex/intentex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaceex/interfaceex.iml" filepath="$PROJECT_DIR$/interfaceex/interfaceex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listviewex/listviewex.iml" filepath="$PROJECT_DIR$/listviewex/listviewex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stream/stream.iml" filepath="$PROJECT_DIR$/stream/stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threadex/threadex.iml" filepath="$PROJECT_DIR$/threadex/threadex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/valueex1/valueex1.iml" filepath="$PROJECT_DIR$/valueex1/valueex1.iml" />
+    </modules>
+  </component>
+</project>
